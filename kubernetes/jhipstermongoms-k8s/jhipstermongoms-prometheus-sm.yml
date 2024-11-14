@@ -1,0 +1,14 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: jhipstermongoms-app
+  namespace: microservices
+  labels:
+    team: microservices
+spec:
+  selector:
+    matchLabels:
+      app: jhipstermongoms
+  endpoints:
+    - port: web
+      path: /prometheusMetrics

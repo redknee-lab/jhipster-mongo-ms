@@ -1,0 +1,22 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["jhipster-mongo-ms"],
+    "clusteredDbApps": ["jhipster-mongo-ms"],
+    "dbRandomPassword": "473b1fbf4215e07a1379816bfa559ab7b1aa2577c4cb2028871b62b8ec67",
+    "deploymentApplicationType": "microservice",
+    "directoryPath": "../../",
+    "dockerPushCommand": "docker push",
+    "dockerRepositoryName": "github.com/redknee-lab",
+    "ingressDomain": null,
+    "ingressType": null,
+    "istio": false,
+    "jhipsterVersion": "8.7.1",
+    "jwtSecretKey": "MjA5NDNmNGEwZmI0YjYyMjA4NTI2MWZiODIxNGIyYzQwMzY4Njc4MDg0MWVmMzhmZDA5MTNkNmFkZmQ0ZjQxYzBhYmU0ZGQ3N2E3ZjU0MDRhYjcxNmRkYWE0ZWE2OTEyZjhlMA==",
+    "kubernetesNamespace": "microservices",
+    "kubernetesServiceType": "NodePort",
+    "kubernetesStorageClassName": null,
+    "kubernetesUseDynamicStorage": false,
+    "monitoring": "prometheus",
+    "serviceDiscoveryType": "no"
+  }
+}
