@@ -46,6 +46,9 @@
     "default_environment": "prod",
     "packaging": "jar"
   },
+  "dependencies": {
+    "jhipster-mongo-ms": "file:"
+  },
   "devDependencies": {
     "generator-jhipster": "8.7.1",
     "husky": "9.1.6",

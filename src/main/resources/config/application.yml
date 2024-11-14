@@ -51,7 +51,7 @@ management:
           - caches
   endpoint:
     health:
-      show-details: when_authorized
+      show-details: WHEN_AUTHORIZED
       roles: 'ROLE_ADMIN'
       probes:
         enabled: true
@@ -104,6 +104,9 @@ mongock:
 spring:
   application:
     name: jhipsterMongoMs
+  data:
+    mongodb:
+      uri: mongodb://mongodb:27017/jhipster
   docker:
     compose:
       enabled: true
