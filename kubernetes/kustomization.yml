@@ -8,7 +8,7 @@ resources:
   # Individual apps
   - jhipstermongoms-k8s/jhipstermongoms-deployment.yml
   - jhipstermongoms-k8s/jhipstermongoms-service.yml
-  - jhipstermongoms-k8s/jhipstermongoms-mongodb.yml
+  #- jhipstermongoms-k8s/jhipstermongoms-mongodb.yml
   - jhipstermongoms-k8s/jwt-secret.yml
   - jhipstermongoms-k8s/jhipstermongoms-prometheus-sm.yml
   # monitoring prometheus
