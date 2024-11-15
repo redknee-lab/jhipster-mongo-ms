@@ -36,7 +36,7 @@ spec:
             - |
               while true
               do
-                rt=$(nc -z -w 1 jhipstermongoms-mongodb 27017)
+                rt=$(nc -z -w 1 jhipstermongoms-mongodb.mongodb 27017)
                 if [ $? -eq 0 ]; then
                   echo "DB is UP"
                   break
