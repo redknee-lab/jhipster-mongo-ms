@@ -36,31 +36,31 @@ subjects:
   - kind: ServiceAccount
     name: jhipster-prometheus-sa
 ---
-apiVersion: monitoring.coreos.com/v1
-kind: Prometheus
-metadata:
-  name: jhipster-prometheus
-  namespace: microservices
-spec:
-  replicas: 1
-  serviceAccountName: jhipster-prometheus-sa
-  serviceMonitorSelector:
-    matchLabels:
-      team: microservices
-  resources:
-    requests:
-      memory: 400Mi
+# apiVersion: monitoring.coreos.com/v1
+# kind: Prometheus
+# metadata:
+#   name: jhipster-prometheus
+#   namespace: microservices
+# spec:
+#   replicas: 1
+#   serviceAccountName: jhipster-prometheus-sa
+#   serviceMonitorSelector:
+#     matchLabels:
+#       team: microservices
+#   resources:
+#     requests:
+#       memory: 400Mi
 ---
-apiVersion: v1
-kind: Service
-metadata:
-  name: jhipster-prometheus
-  namespace: microservices
-spec:
-  ports:
-    - name: web
-      port: 9090
-      protocol: TCP
-      targetPort: web
-  selector:
-    prometheus: jhipster-prometheus
+# apiVersion: v1
+# kind: Service
+# metadata:
+#   name: jhipster-prometheus
+#   namespace: microservices
+# spec:
+#   ports:
+#     - name: web
+#       port: 9090
+#       protocol: TCP
+#       targetPort: web
+#   selector:
+#     prometheus: jhipster-prometheus

@@ -12,10 +12,10 @@ resources:
   - jhipstermongoms-k8s/jwt-secret.yml
   - jhipstermongoms-k8s/jhipstermongoms-prometheus-sm.yml
   # monitoring prometheus
-  - monitoring-k8s/jhipster-prometheus-cr.yml
-  - monitoring-k8s/jhipster-prometheus-crd.yml
-  - monitoring-k8s/jhipster-grafana.yml
-  - monitoring-k8s/jhipster-grafana-dashboard.yml
+  # - monitoring-k8s/jhipster-prometheus-cr.yml
+  # - monitoring-k8s/jhipster-prometheus-crd.yml
+  # - monitoring-k8s/jhipster-grafana.yml
+  # - monitoring-k8s/jhipster-grafana-dashboard.yml
 # service discovery eureka/consul
 
 patchesJson6902:
