@@ -56,7 +56,7 @@ spec:
                   name: jwt-secret
                   key: secret
             - name: SPRING_DATA_MONGODB_URI
-              value: 'mongodb://jhipstermongoms-mongodb-0.jhipstermongoms-mongodb.microservices:27017,jhipstermongoms-mongodb-1.jhipstermongoms-mongodb.microservices:27017,jhipstermongoms-mongodb-2.jhipstermongoms-mongodb.microservices:27017/jhipsterMongoMs'
+              value: 'mongodb://jhipstermongoms-mongodb:27017'
             - name: MANAGEMENT_PROMETHEUS_METRICS_EXPORT_ENABLED
               value: 'true'
             - name: MANAGEMENT_TRACING_BAGGAGE_REMOTE_FIELDS
