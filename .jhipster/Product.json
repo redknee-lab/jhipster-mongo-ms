@@ -1,0 +1,32 @@
+{
+  "annotations": {
+    "changelogDate": "20241122094542"
+  },
+  "applications": "*",
+  "clientRootFolder": "jhipsterMongoMs",
+  "databaseType": "mongodb",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "microserviceName": "jhipsterMongoMs",
+  "name": "Product",
+  "relationships": [
+    {
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "products",
+      "relationshipName": "owner",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

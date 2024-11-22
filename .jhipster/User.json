@@ -1,0 +1,32 @@
+{
+  "annotations": {
+    "changelogDate": "20241122094543"
+  },
+  "applications": "*",
+  "clientRootFolder": "jhipsterMongoMs",
+  "databaseType": "mongodb",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "microserviceName": "jhipsterMongoMs",
+  "name": "User",
+  "relationships": [
+    {
+      "otherEntityName": "product",
+      "otherEntityRelationshipName": "owner",
+      "relationshipName": "products",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}

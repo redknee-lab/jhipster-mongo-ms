@@ -1,0 +1,16 @@
+entity User {
+    name String required,
+    email String required
+}
+
+entity Product {
+    name String required,
+    price BigDecimal required
+}
+
+relationship OneToMany {
+    User{products} to Product{owner}
+}
+
+dto * with mapstruct
+service * with serviceImpl
