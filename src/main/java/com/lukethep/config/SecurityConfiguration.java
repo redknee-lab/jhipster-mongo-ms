@@ -17,7 +17,7 @@ import org.springframework.web.servlet.handler.HandlerMappingIntrospector;
 import tech.jhipster.config.JHipsterProperties;
 
 @Configuration
-@EnableMethodSecurity(securedEnabled = true)
+@EnableMethodSecurity(securedEnabled = false)
 public class SecurityConfiguration {
 
     private final JHipsterProperties jHipsterProperties;
