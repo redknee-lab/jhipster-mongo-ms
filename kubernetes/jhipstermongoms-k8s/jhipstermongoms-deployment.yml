@@ -46,7 +46,7 @@ spec:
               done
       containers:
         - name: jhipstermongoms-app
-          image: lukethep/jhipstermongoms:v3.0
+          image: lukethep/jhipstermongoms:v4.0
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: prod
