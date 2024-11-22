@@ -15,9 +15,9 @@
 
 logging:
   level:
-    ROOT: INFO
-    tech.jhipster: INFO
-    com.lukethep: INFO
+    ROOT: DEBUG
+    tech.jhipster: DEBUG
+    com.lukethep: DEBUG
 
 management:
   prometheus:
